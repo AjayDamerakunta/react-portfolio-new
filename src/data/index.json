@@ -1,0 +1,69 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./logo192.png",
+            "title": "Front-End",
+            "description": "HTML"
+        },
+        {
+            "id": "2",
+            "src": "./logo192.png",
+            "title": "Back-End",
+            "description": "CSS"
+        },
+        {
+            "id": "3",
+            "src": "./logo192.png",
+            "title": "UI & UX Design",
+            "description": "Javascript"
+        },
+        {
+            "id": "4",
+            "src": "./logo192.png",
+            "title": "Webflow Development",
+            "description": "React"
+        },
+        {
+            "id": "5",
+            "src": "",
+            "title": "Webflow Development",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique"
+        },
+        {
+            "id": "4",
+            "src": "",
+            "title": "Webflow Development",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique"
+        },
+        {
+            "id": "4",
+            "src": "",
+            "title": "Webflow Development",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./school-img.jpg",
+            "title": "Ahuse",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
+            "link": "View link"
+        },
+        {
+            "id": "2",
+            "src": "./school-img.jpg",
+            "title": "App Dashboard",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
+            "link": "View link"
+        },
+        {
+            "id": "3",
+            "src": "./school-img.jpg",
+            "title": "Easy Rentn",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
+            "link": "View link"
+        }
+    ]
+}
