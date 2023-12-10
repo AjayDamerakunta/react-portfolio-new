@@ -35,15 +35,11 @@ export default function AboutMe() {
             <p className="section--title"></p>
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
-            </p>
+             My self Ajay Damerakunta .Have completed B.Tech graduatio  in the year of 2022 in the stream of civil Engineering. I  was a ex-intern  at ssds(smart squad digital solutions), which is a start-up company. I have enhanced my slills as full stavk developer, which I came to enhanced Html, Css, Javascript, React, Node js, Mongodb. 
+            </p> 
             <p className="hero--section-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+              officiis sit debitis
             </p>
             {/* <div className="resume-container"> */}
               {/* <div className="link-icon"> */}
