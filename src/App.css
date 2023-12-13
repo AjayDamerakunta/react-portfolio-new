@@ -135,6 +135,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     color: black;
+    padding: 10px;
+    margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
@@ -142,6 +144,10 @@ body {
     background-color: gray;
     color: black;
     color: #ffffff;
+  }
+  .resume-icon{
+    height: 13px;
+    gap: 5px;
   }
   .Ajay-para-name{
     color: red;
@@ -161,9 +167,7 @@ body {
     justify-content: center;  
     align-items: center;  
     text-align: center; 
-    gap: 4px;
-    padding: 5px;
-    margin: 1px;
+   
   } 
   .about--section
   /* Section Titles */
@@ -321,7 +325,7 @@ body {
 
   .skills--section--card:hover {
     border-bottom: 4px solid;
-    background-color: blue;
+    background-color: black;
     color: white;
     cursor: pointer;
     opacity: 1;

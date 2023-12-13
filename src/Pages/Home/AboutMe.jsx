@@ -35,18 +35,18 @@ export default function AboutMe() {
             <p className="section--title"></p>
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-             My self Ajay Damerakunta .Have completed B.Tech graduatio  in the year of 2022 in the stream of civil Engineering. I  was a ex-intern  at ssds(smart squad digital solutions), which is a start-up company. I have enhanced my slills as full stavk developer, which I came to enhanced Html, Css, Javascript, React, Node js, Mongodb. 
+             My self Ajay Damerakunta .Have completed B.Tech graduatio  in the year of 2022 in the stream of civil Engineering from Kakatiya University college of Engineering and Technology(KUCET). I  was a ex-intern  at ssds(smart squad digital solutions), which is a startup company. I have enhanced my skills as full stack developer, which I came to enhanced Html, Css, Javascript, React, Node js, Mongodb. 
             </p> 
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis
+              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              officiis sit debitis */}
             </p>
             {/* <div className="resume-container"> */}
               {/* <div className="link-icon"> */}
                 {/* <a href="https://Users/AJAY/Downloads/Ajay%20Damerakunta%20Resume(updated).pdf"> */}
               {/* <h3>Resume</h3> */}
               <button type="button" onClick={handleDownload} className="resume-container">Resume
-              <FaExternalLinkAlt />  </button>
+              <FaExternalLinkAlt className="resume-icon" />  </button>
              
               {/* </a> */}
               </div>

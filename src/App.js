@@ -8,7 +8,7 @@ import Navbar from "./Pages/Home/Navbar";
 
 import MySkills from "./Pages/Home/MySkills";
 import AboutMe from "./Pages/Home/AboutMe";
-// import Footer from "./Pages/Home/Footer";
+
 import HeroSection from "./Pages/Home/HeroSection";
 import MyPortfolio from "./Pages/Home/MyPortfolio";
 import ContactMe from "./Pages/Home/ContactMe";
