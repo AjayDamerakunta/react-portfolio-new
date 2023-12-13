@@ -43,7 +43,7 @@ export default function Home() {
 </button>
 
             <div className="hero--section--img">
-                <img src="./img2-aj.jpg" alt="Hero section" className="Home-pic" />
+                <img src="./new-aj.jpg" alt="Hero section" className="Home-pic" />
             </div>
 
         </section>

@@ -290,14 +290,23 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 106.667px;
+    /* transform: scale(1); */
+   
+    /* text-transform: capitalize; */
   }
+  .tech--cards:hover {
+    transform: scale(1.1);
+    transition: .2s linear;
+  
+   
+}
   .skills--section--heading {
     color: var(--heading-color);
     font-size: 64px;
     font-weight: 700;
     line-height: 77px;
     /* font-style: oblique; */
-  }
+  } 
   .skills--section--container {
     display: grid;
     justify-content: center;
@@ -326,6 +335,7 @@ body {
   .skills--section--card:hover {
     border-bottom: 4px solid;
     background-color: black;
+    /* background: #262626; */
     color: white;
     cursor: pointer;
     opacity: 1;
