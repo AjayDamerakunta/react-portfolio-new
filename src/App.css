@@ -493,7 +493,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    /* gap: 32px; */
     flex: 1 0 0;
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -501,17 +501,17 @@ button {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
   }
- /* .portfolio--section--card:hover{
-  background-color: #5e3bee;
+  .portfolio--section--card:hover{
+  background-color: gray;
   color: #ffffff;
 
-  } */
+  } 
   .portfolio--section--card--content {
     display: flex;
     padding: 32px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    /* gap: 32px; */
     align-self: stretch;
   }
   /* .portfolio--section--card--content:hover{

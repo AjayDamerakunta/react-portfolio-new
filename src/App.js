@@ -24,7 +24,7 @@ function App() {
           <Navbar />
           <MySkills/>
        
-         {/* <Footer /> */}
+  
          <MyPortfolio />
          
          <ContactMe/>
