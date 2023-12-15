@@ -14,9 +14,9 @@ export default function Home() {
         
         <section id="heroSection" className="hero--section">
 
-            <div className="hero--section--content--box"></div>
+            <div className="hero--section--content--box">
             <div classname = "hero-section-content">
-                <p className="section--tittle"> <span className=" span-para">Hi, my name is</span>  <br/>
+                <p className="section--tittle"> <span className="span-para">Hi, my name is</span>  
                  <span className='Ajay-para-name'>Ajay Damerakunta</span>  </p>
                 <h1 className="hero--section--title">
                     <span className="hero--section">Full Stack Developer</span>{" "}
@@ -25,6 +25,7 @@ export default function Home() {
               <p className="hero--section-description">                
                           I am a passionate web designer with a few experience in creating visually appearing and user-friendly websites</p>
 
+            </div>
             </div>
             <button class="btn btn-primary">
             <Link

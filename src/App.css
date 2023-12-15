@@ -180,6 +180,7 @@ body {
     font-weight: 600;
     line-height: 32px;
     display: flex;
+
     align-items: flex-start;
   }
   /* Portfolio, Testimonial & Contact Me */
@@ -234,8 +235,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding: 133.333px 85.333px 133.333px;
     align-items: center;
-    justify-content: space-between;
-    gap: 32px;
+    /* justify-content: space-between; */
+    /* gap: 32px; */
     background-color: var(--bg-shade);
     font-style: Italic;
     
@@ -244,7 +245,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    /* gap: 32px; */
   }
   .hero--section--content {
     display: flex;
@@ -506,11 +507,18 @@ button {
   color: #ffffff;
 
   } 
+
   .portfolio--section--card--content {
     display: flex;
     padding: 32px;
     flex-direction: column;
     align-items: flex-start;
+    height: 250px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     /* gap: 32px; */
     align-self: stretch;
   }
