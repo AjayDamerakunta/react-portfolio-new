@@ -14,19 +14,26 @@ export default function Home() {
         
         <section id="heroSection" className="hero--section">
 
-            <div className="hero--section--content--box">
+            {/* <div className="hero--section--content--box">
             <div classname = "hero-section-content">
-                <p className="section--tittle"> <span className="span-para">Hi, my name is</span>  
+                <p className="section--tittle"> <span className="span-para">Hi, my name is <br/></span>  
                  <span className='Ajay-para-name'>Ajay Damerakunta</span>  </p>
                 <h1 className="hero--section--title">
                     <span className="hero--section">Full Stack Developer</span>{" "}
-                    {/* <br /> Developer */}
                 </h1>
               <p className="hero--section-description">                
                           I am a passionate web designer with a few experience in creating visually appearing and user-friendly websites</p>
 
             </div>
+            </div> */}
+
+            <div class="home-card-container">
+
+                <h1>Hi, I am Ajay Damerakunta <span>Full stack Developer</span></h1>
+                <p>                          I am a passionate web designer with a few experience in creating visually appearing and user-friendly websites</p>
             </div>
+            <div>
+            {/* <img src="./new-aj.jpg" alt="Hero section" className="Home-pic" /> */}
             <button class="btn btn-primary">
             <Link
         onClick={closeMenu}
@@ -40,13 +47,11 @@ export default function Home() {
       >
         Get In Touch
       </Link>
- 
 </button>
-
+</div>
             <div className="hero--section--img">
                 <img src="./new-aj.jpg" alt="Hero section" className="Home-pic" />
             </div>
-
         </section>
     );
 }

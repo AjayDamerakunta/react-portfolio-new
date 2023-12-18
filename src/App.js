@@ -23,10 +23,7 @@ function App() {
         < AboutMe />
           <Navbar />
           <MySkills/>
-       
-  
          <MyPortfolio />
-         
          <ContactMe/>
           <Routes>
             <Route path="/" element={<Home />}></Route>
