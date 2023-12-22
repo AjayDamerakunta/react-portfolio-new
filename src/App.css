@@ -328,8 +328,9 @@ body {
     border-radius: 10.6px;
     background: var(--bg-shade);
     height: 300px;
-    background-color: rgb(179, 172, 172);
-    color:black;
+    /* background-color: rgb(179, 172, 172); */
+    background-color: 4CB9E7;
+    color:gray;
     
   }
   
@@ -340,7 +341,8 @@ body {
 
   .skills--section--card:hover {
     border-bottom: 4px solid;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(207, 200, 200);
     /* background: #262626; */
     color: white;
     cursor: pointer;
@@ -430,10 +432,10 @@ body {
   /* } */
 
 button:hover {
-    color: orangered;
+    color: black;
 }
 button {
-  background-color: #671e1e;
+  background-color: #ff6a00;
   border: none;
   color: #ffffff;
   border-radius: 10px;
@@ -499,7 +501,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* gap: 32px; */
+    gap: 32px;
     flex: 1 0 0;
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -527,10 +529,10 @@ button {
     /* gap: 32px; */
     align-self: stretch;
   }
-  /* .portfolio--section--card--content:hover{
+   /* .portfolio--section--card--content:hover{
     background-color: red;
     color:#f5fcff;
-  } */
+  }  */
   .portfolio--section--title {
     color: var(--heading-color);
   }
@@ -824,7 +826,7 @@ button {
       gap: 10px;
     }
     .contact--form--container {
-      width: 100%;
+      width: 50%;
     }
     .container {
       display: flex;
