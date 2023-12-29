@@ -7,7 +7,157 @@ body {
     -moz-osx-font-smoothing: "Roboto", sans-serif;
     font-style: normal;
   }
-  h1,
+
+  /* HOME STARS */
+  .home-bg-container{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  }
+
+  .img-container {
+    flex:1;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+
+  .content-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  }
+
+  .hello-line {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .name-line {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .role-line {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .download-button{
+    padding: 10px;
+    background-color: GREEN;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  /* Hover effect */
+.download-button:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #fff;
+}
+
+  .contact-button {
+    padding: 10px;
+    background: linear-gradient(to right, #007bff, #00bfff); /* Use your desired gradient colors */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  /* Hover effect */
+.contact-button:hover {
+  /* opacity: 0.8; Adjust the opacity on hover if desired */
+}
+  
+
+  .social-icons-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    /* color: #007bff; */
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    /* gap: 40px; */
+    border-radius: 50px;
+   
+  }
+
+  
+/* Media query for screens with a maximum width of 768 pixels (typical tablets and mobile devices) */
+@media screen and (max-width: 768px) {
+  .content-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .role-line {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .buttons-container {
+    gap: 5px; /* Adjust gap for smaller screens */
+  }
+
+  .image-container img {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* h1,
   h2,
   h3,
   h4,
@@ -89,27 +239,27 @@ body {
   /* Main Headings */
   
   /* Heading 1 */
-  h1 {
+  /* h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
   }
-  /* Heading 2 */
+  Heading 2
   h2 {
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
   }
   /* Heading 3 */
-  h2 {
+  /* h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
-  }
+  } */
   
   /* Pragraphs text large medium small */
   /* Body 1 */
-  .text-lg {
+  /* .text-lg {
     color: var(--darkblue);
     font-size: 18px;
     font-style: normal;
@@ -117,7 +267,7 @@ body {
     line-height: 27px;
   }
   /* Body 2 */
-  .text-md {
+  /* .text-md {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
@@ -125,7 +275,7 @@ body {
     line-height: 24px;
   }
   /* Body 3 */
-  .text-sm {
+  /* .text-sm {
     color: var(--black);
     font-size: 14px;
     font-style: normal;
@@ -160,6 +310,14 @@ body {
     font-size: 40px;
     font-style: oblique;
   }
+  .SPAN-FULL-STACK{
+    color: red;
+    font-family: Roboto;
+  }
+  .span-ajay-name{
+    color:green;
+    font-family: "Open Sans";
+  }
   .span-para{
     font-size:20px;
     color: gray;
@@ -174,10 +332,10 @@ body {
     text-align: center; 
    
   } 
-  .about--section
+  .about--section */
   /* Section Titles */
   /* Skills & About Me */
-  .section--title {
+  /* .section--title {
     color: var(--heading-color);
     font-size: 21px;
     text-align: center;
@@ -189,28 +347,31 @@ body {
     align-items: flex-start;
   }
   /* Portfolio Contact Me */
-  .sub--title {
+  /* .sub--title {
     color: var(--heading-color);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-  }
+  } */
   /* Section Titles Ends */
   
   /* Navbar Style Start */
-  .navbar {
+  /* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 85.333px;
-    background: var(--white);
+    padding: 15px 85.333px; */
+    /* background: var(--white); */
+    /* background-color: #000000; */
+    /* background-image: linear-gradient(to right, #65bc7f, #33ab2a, #2aab62);
+    color: red;
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-  }
-  .navbar--items > ul {
+  } */
+  /* .navbar--items > ul {
     list-style: none;
     display: flex;
     align-items: flex-start;
@@ -219,9 +380,10 @@ body {
   }
   .navbar--items ul > li > a {
     text-decoration: none;
-  }
+    color:red;
+  } */
   /* Navbar Content */
-  .navbar--content {
+  /* .navbar--content {
     color: var(--darkblue);
     font-size: 16px;
     font-style: normal;
@@ -230,23 +392,23 @@ body {
     cursor: pointer;
   }
   .navbar--active-content {
-    color: var(--primary);
-  }
+    color: var(--primary); */
+  /* } */
   /* Navbar Styler Ends */
   
   /* Hero Section Style */
-  .hero--section {
+  /* .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 133.333px 85.333px 133.333px;
     align-items: center;
     /* justify-content: space-between; */
     /* gap: 32px; */
-    background-color: var(--bg-shade);
+    /* background-color: var(--bg-shade);
     font-style: Italic;
     
-  }
-  .hero--section--content-box {
+  } */
+  /* .hero--section--content-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -259,7 +421,7 @@ body {
     gap: 21.333px;
   }
   .hero--section--content--box > button {
-    /* margin-top: 21.333px; */
+    margin-top: 21.333px;
   }
   .hero--section--title {
     color: var(--heading-color);
@@ -285,22 +447,22 @@ body {
   .hero--section--img > img {
     width: 100%;
     height: 100%;
-  }
+  }  */
   /* Hero Section Style Ends */
   
   /* Skills Section Style */
-  .skills--section {
+  /* .skills--section {
     display: flex;
     padding: 149.33px 85.33px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 106.667px;
+    gap: 106.667px; */
     /* transform: scale(1); */
    
     /* text-transform: capitalize; */
-  }
-  .tech--cards:hover {
+  /* } */
+  /* .tech--cards:hover {
     transform: scale(1.1);
     transition: .2s linear;
   
@@ -310,10 +472,10 @@ body {
     color: var(--heading-color);
     font-size: 64px;
     font-weight: 700;
-    line-height: 77px;
+    line-height: 77px; */
     /* font-style: oblique; */
-  } 
-  .skills--section--container {
+  /* }  */
+  /* .skills--section--container {
     display: grid;
     justify-content: center;
     align-items: flex-start;
@@ -322,36 +484,36 @@ body {
   }
   .skills--section--card {
     /* display: flex; */
-    padding: 32px;
+    /* padding: 32px; */
     /* gap: 32px; */
-    flex: 1 0 0;
+    /* flex: 1 0 0;
     border-radius: 10.6px;
     background: var(--bg-shade);
-    height: 300px;
+    height: 300px; */
     /* background-color: rgb(179, 172, 172); */
-    background-color: 4CB9E7;
-    color:gray;
+    /* background-color: 4CB9E7;
+    color:gray; */
     
-  }
+  /* } */
   
-  .skills--section--img{
+  /* .skills--section--img{
     flex-direction: column;
     text-align: center;
   }
 
   .skills--section--card:hover {
-    border-bottom: 4px solid;
+    border-bottom: 4px solid; */
     /* background-color: black; */
-    background-color: rgb(207, 200, 200);
-    /* background: #262626; */
+    /* background-color: rgb(207, 200, 200); */
+    /* background: #262626;
     color: white;
     cursor: pointer;
     opacity: 1;
     
   transition: background-color 0.3s, opacity 0.3s;
-}
+} */
   
-  .skills--section--card:hover .skills--section--description {
+  /* .skills--section--card:hover .skills--section--description {
     color: var(--darkblue);
   }
   .skills--section--img {
@@ -364,11 +526,11 @@ body {
     background: #fff;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
     height: 60px;
-    width: 100px;
+    width: 100px; */
     /* flex-wrap: wrap; */
    
-  }
-  .technology-name{
+  /* } */
+  /* .technology-name{
     font-style: oblique;
   }
   .tech--cards{
@@ -377,18 +539,18 @@ body {
     align-items: center;
     gap: 5px;
     grid-gap: 10px;  
-    padding: 10px;
-    margin: 10px;
-    flex-direction: row;
-    color: #0000ff;
-    display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns in each row
+    padding: 5px;
+    margin: 5px;
+    flex-direction: row; */
+    /* color: #0000ff; */
+    /* display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns in each row */
   
     /* flex-wrap: wrap; */
     /* width: 50%; */
-    box-sizing: border-box;
-  }
-  .tech--cards:hover{
+    /* box-sizing: border-box; */
+  /* } */
+  /* .tech--cards:hover{
    
     color: black;
 
@@ -400,21 +562,20 @@ body {
     gap: 32px;
     align-self: stretch;
   }
-  .skills--section--title {
+  .skills--section--title { */
     /* color: var(--heading-color); */
-    font-size: 2px;
+    /* font-size: 2px;
     line-height: 45px;
-    font-family: Italic;
+    font-family: Italic; */
   
-  }
-  .skills--section--description {
+  /* } */
+  /* .skills--section--description {
     color: var(--black);
     font-size: 21.3px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-  }
-
+    line-height: 32px; */
+  /* } */
   /* .front-end-container{
     background-color: #097835; 
     color: #ffffff;
@@ -431,7 +592,7 @@ body {
     /* min-width: 920px; */
   /* } */
 
-button:hover {
+/* button:hover {
     color: black;
 }
 button {
@@ -445,10 +606,10 @@ button {
   font-style: italic;
   align-items: flex-start;
   justify-content: flex-start;
-}
+} */
   /* Skills Style Ends */
   
-  /* About Us */
+  /* About Us
   .about--section {
     display: grid;
     padding: 133.3px 85.3px;
@@ -458,12 +619,12 @@ button {
   }
   .about--section--img > img {
     width: 100%;
-    height: 100%;
-  }
+    height: 100%; */
+  /* } */
   /* About Us Ends */
   
   /* My Portfolio Starts */
-  .portfolio--section {
+  /* .portfolio--section {
     display: flex;
     padding: 112px 85px;
     flex-direction: column;
@@ -522,13 +683,13 @@ button {
     align-items: flex-start;
     height: 250px;
     /* border-radius: 10px; */
-    border-top-left-radius: 5px;
+    /* border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     /* gap: 32px; */
-    align-self: stretch;
-  }
+    /* align-self: stretch; */
+  /* }  */
    /* .portfolio--section--card--content:hover{
     background-color: red;
     color:#f5fcff;
@@ -544,7 +705,7 @@ button {
     padding-bottom: 10.6px;
     font-weight: 600;
   }
-  .portfolio--section--card:hover path {
+  .portfolio--section--card:hover path { 
     stroke: #006b6a;
   }
   .react-icon{
@@ -693,40 +854,40 @@ button {
  .socialmedia-icons1{
   height: 25px;
   width: 25px;
-  color: blue;
+  color: gray;
   border-radius: 5px;
  }
  .socialmedia-icons1:hover{
-  color: rgb(92, 53, 164);
+  color: blue;
  }
  .socialmedia-icons2{
   height: 25px;
   width: 25px;
-  color:  red;
+  color:  gray;
   border-radius: 5px;
  }
  .socialmedia-icons2:hover{
-  color: rgb(133, 57, 57);
+  color: #d61b1b;
  }
  .socialmedia-icons3{
   height: 25px;
   width: 25px;
- background-color: rgb(11, 11, 169);
- color: white;
+ /* background-color: rgb(11, 11, 169); */
+ color: gray;
  border-radius: 5px;
  }
  .socialmedia-icons3:hover{
-  color: rgb(110, 89, 204);
+  color: #2906c3;
  }
  .socialmedia-icons4{
   height: 25px;
   width: 25px;
-  color: white;
-  background-color: black;
+  color: gray;
+  /* background-color: white; */
   border-radius: 5px;
  }
  .socialmedia-icons4:hover{
-  color: rgb(119, 111, 111);
+  color: black;
  }
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
@@ -956,4 +1117,4 @@ button {
       flex-wrap: wrap;
       align-items: center;
     }
-  }
+  } 

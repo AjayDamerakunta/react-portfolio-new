@@ -16,10 +16,10 @@ import ContactMe from "./Pages/Home/ContactMe";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">import
       <Router>
         <div>
-          <HeroSection />
+          {/* <HeroSection /> */}
         < AboutMe />
           <Navbar />
           <MySkills/>
