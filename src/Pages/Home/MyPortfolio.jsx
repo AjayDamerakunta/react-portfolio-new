@@ -7,47 +7,49 @@ import { MdArrowOutward } from "react-icons/md";
 
 
 
-export default function MyPortfolio() {
+
+const  MyPortfolio= () => {
   return (
     <section className="portfolio--section" id="MyPortfolio">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
-        </div>
-        <div>
 
-          <a
+<p className="sub-title">Browse My Recent</p>
+<h1 className="project-heading">Projects</h1>
+      <div className="portfolio-container-box">
+    
+
+          <div className="projects-container">
+           
+            <img src="./school-img.jpg" alt ="" className="school-img" />
+            <h2 className="project-heading">School Website</h2>
+
+            <div className="button-container">
+              <button className="git-btn" > <a
             href="https://github.com/AjayDamerakunta"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-github">
-                    <FaGithub />
-            Visit My GitHub
-            </a>
-          
-        </div>
-      </div>
-      <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+                    {/* <FaGithub /> */}
+            </a>Github  </button>
+
+              <button className="live-btn"> <a
+            href="https://github.com/AjayDamerakunta"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-github">
+                    {/* <FaGithub /> */}
+            </a>Live Demo</button>
             </div>
-            <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
-              </div>
-              <p className="text-sm portfolio--link">
-                {/* {item.link} */}
-               <a href="https://school-app-frontend-delta.vercel.app/register" target="_blank" rel="noopener noreferrer"
-              className="anchor-element">  {item.link}  <MdArrowOutward className="arrow-icon"/> </a>
-              </p>
-            </div>
+
           </div>
-        ))}
-      </div>
+          </div>
+
+
+        {/* <div> */}
+
+          
+         
+      {/* </div> */}
     </section>
   );
 }
+export default MyPortfolio

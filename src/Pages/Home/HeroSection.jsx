@@ -54,16 +54,9 @@ export default function Home() {
         <p className="hello-line">Hello,</p>
         <p className="name-line">I'm Ajay Damerakunta</p>
         <p className="role-line">Full Stack Developer</p>
-      
-
-        
-
-
-         
-
-
+    
             <div className="button-container">  
-              <button class="btn btn-primary">
+              <button class="download-button">
                <Link
               onClick={closeMenu}
                activeClass="navbar--active-content"
@@ -71,8 +64,8 @@ export default function Home() {
                smooth={true}
                offset={-70}
               duration={500}
-              to="Contact"
-              className="download-button">
+              to=""
+              className="/">
                  Contact Info
               </Link>
               </button>
@@ -81,11 +74,8 @@ export default function Home() {
          <button type="button" onClick={handleDownload} className="download-button">Download CV  </button>
          </div>
 
-    
          <div class="social-icon-container">
 
-
-         {/* <div class="icons-litle-container"> */}
                   
                   {/* <li> */}
                   <a
@@ -109,8 +99,7 @@ export default function Home() {
                   rel="noreferrer">   <IoLogoLinkedin   className="social-icon"/>
   
                     </a>
-                  {/* </li> */}
-                  {/* </div> */}
+            
   
   
   

@@ -46,21 +46,21 @@
     "portfolio": [
         {
             "id": "1",
-            "src": "./school-img.jpg",
+            "src": "",
             "title": "School Website",
             "description": "The website is used to collect the school students and Management  data and get the schools and management data. It is designed by using skills React, Node Js and connected to the Mongodb to retrive the data.In the  website the user Can be also get Registered , Which is bulit by using react JWT Tokens",
             "link": "View link"
         },
         {
             "id": "2",
-            "src": "./school-img.jpg",
-            "title": "App Dashboard",
+            "src": "",
+            "title": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
             "link": "View link"
         },
         {
             "id": "3",
-            "src": "./school-img.jpg",
+            "src": "",
             "title": "Easy Rentn",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
             "link": "View link"
