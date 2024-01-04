@@ -182,6 +182,24 @@ flex-wrap: wrap;
   height: 40px;
 }
 
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .AboutMe-card-container {
+    gap: 10px;
+  }
+
+  .tech-container,
+  .Education-container,
+  .img-container {
+    flex: 100%;
+  }
+
+  .tech-container,
+  .Education-container {
+    margin: 10px 0;
+  }
+}
+
 /* Skills */
 .Frontend-container{
   border: 2px solid gray;
@@ -342,6 +360,41 @@ border-width: 1px;
 
 }
 
+
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .Frontend-container,
+  .Backend-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .Frontend-container,
+  .Backend-container,
+  .Frontend-card-container,
+  .Backend-card-container {
+    gap: 10px;
+  }
+
+  .verify-icon,
+  .card-descriptions,
+  .inner-container,
+  .Tech-name,
+  .level-of-tech {
+    width: 100%;
+  }
+
+  .Frontend-card-container,
+  .Backend-card-container {
+    justify-content: flex-start;
+  }
+
+  .Frontend-card-container,
+  .Backend-card-container {
+    padding: 10px;
+  }
+}
+
 /* contact */
 .form-container{
 
@@ -350,15 +403,7 @@ border-width: 1px;
   padding: 5px;
   margin: 5px;
   width: 100%;
-  /* height: 100px; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  
 }
-
-
-
 .input-container{
   display: flex;
   flex-direction: column;
@@ -366,10 +411,10 @@ border-width: 1px;
   gap: 16px;
 }
 .message-container{
-  /* display: flex; */
+ 
   flex-direction: row;
   gap: 16px;
-  /* justify-content: space-between; */
+
 }
 
 .contact--section {
@@ -383,8 +428,7 @@ border-width: 1px;
 }
 .contact--form--container {
   display: grid;
-  /* grid-template-columns: auto; */
-  /* grid-template-rows: repeat(5, auto); */
+ 
   width: 40%;
   row-gap: 32px;
 }
@@ -444,10 +488,16 @@ border-width: 0px;
 
 }
 .email-container:hover{
-  /* text-decoration: underline; */
-  /* padding: 5px; */
-  /* margin: 5px; */
+ 
   color: gray;
+}
+
+
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .contact--form--container {
+    width: 100%;
+  }
 }
 
 /* Navbar */
@@ -457,8 +507,6 @@ border-width: 0px;
     justify-content: space-between;
     align-items: center;
    padding: 15px 85.333px; 
-   
-    /* box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1); */
     position: fixed;
     top: 0;
     left: 0;
@@ -496,6 +544,23 @@ border-width: 0px;
   .navbar--active-content {
     color: orange; 
   } 
+
+  
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar--items > ul {
+    gap: 10px;
+    flex-direction: row; /* Adjust flex direction for mobile view */
+  }
+
+  .navbar--items ul > li {
+    margin-right: 10px; /* Adjust margin for mobile view */
+  }
+}
   /* Navbar Styler Ends */
   
 
@@ -1276,24 +1341,24 @@ button {
     }
   }
   
-  @media only screen and (max-width: 1200px) {
-    .btn-outline-primary {
+  /* @media only screen and (max-width: 1200px) {
+    .btn-outline-primary { */
       
       /* display: none; */
-      height: 10px;
+      /* height: 10px; */
       /* width: 0px; */
-    }
-    .hero--section {
-      display: flex;
-      flex-direction: column-reverse;
-      padding-bottom: 70px;
-    }
-    .hero--section--title,
+    /* } */
+    /* .hero--section { */
+      /* display: flex; */
+      /* flex-direction: column-reverse; */
+      /* padding-bottom: 70px; */
+    /* } */
+    /* .hero--section--title,
     .hero--section-description,
     .footer--content {
       text-align: center;
-    }
-    .skills--section--container,
+    } */
+    /* .skills--section--container,
     .about--section,
     .portfolio--section--container,
     .portfolio--container-box,
@@ -1302,19 +1367,19 @@ button {
     .footer--content--container {
       display: flex;
       flex-direction: column;
-    }
-    .skills--section,
+    } */
+    /* .skills--section,
     .portfolio--container,
     .hero--section--content,
     .hero--section--content--box {
       align-items: center;
-    }
-    .portfolio--container-box {
+    } */
+    /* .portfolio--container-box {
       gap: 30px;
-    }
-    .skills--section,
+    } */
+    /* .skills--section, */
     /* .testimonial--section, */
-    .contact--section,
+    /* .contact--section,
     .footer--container {
       gap: 20px;
       padding-top: 70px;
@@ -1324,12 +1389,12 @@ button {
       gap: 20px;
       padding-top: 0;
       padding-bottom: 0;
-    }
+    } */
     /* .testimonial--section--card { */
       /* padding: 25px; */
-    }
-    .hero--section--title,
-    .skills--section--heading,
+    /* } */
+    /* .hero--section--title, */
+    /* .skills--section--heading,
     .sections--heading {
       font-size: 35px;
       line-height: 40px;
@@ -1339,12 +1404,12 @@ button {
     }
     .contact--form--container {
       width: 50%;
-    }
-    .container {
+    } */
+    /* .container {
       display: flex;
       flex-direction: column;
       gap: 10px;
-    }
+    } */
     /* .footer--social--icon > ul, */
     /* .footer--items > ul { */
       
@@ -1353,19 +1418,19 @@ button {
       list-style: none; 
        */
     /* } */
-    .social-container ul {
-      list-style: none;
+    /* .social-container ul { */
+      /* list-style: none;
       padding: 0;
       display: flex;
-    }
+    } */
     
-.social-container li {
-  margin-right: 10px; /* Adjust the spacing between icons */
-}
+/* .social-container li { */
+  /* margin-right: 10px; Adjust the spacing between icons */
+/* } */
 
-    .divider {
+    /* .divider {
       margin: 20px;
-    }
+    } */
   /* } */
 
 
@@ -1452,18 +1517,18 @@ button {
 
 
 
-  /* social-icons responsive */
+
   @media (max-width: 768px) {
     .social-container ul {
       justify-content: center;
       flex-wrap: wrap;
       align-items: center;
-      /* flex-direction: column; Stack icons vertically on small screens */
+
     }
   
     .social-container li {
-      margin-right: 20px; /* Remove margin between icons on small screens */
-      margin-bottom: 20px; /* Add bottom margin for spacing on small screens */
+      margin-right: 20px; 
+      margin-bottom: 20px; 
       justify-content: center;
       flex-wrap: wrap;
       align-items: center;
